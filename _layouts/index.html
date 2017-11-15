@@ -8,11 +8,15 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">
-            {% if page.title %}<h1 id="page-title" class="mdl-typography--title">{{ page.title }}</h1>{% endif %}
+            {% if page.title %}
+              <h1 id="page-title" class="mdl-typography--title">
+                <img src="./assets/rakuten-logo.png" width="250" height="35">
+                {{ page.title }}
+              </h1>
+            {% endif %}
           </span>
         </div>
       </header>
-      
       <main class="mdl-layout__content">
         <div class="page-content">
           <div class="content">
@@ -144,5 +148,20 @@
     border-width: 1px;
     box-shadow: 1px 1px 1px #797979;
   }
+
+  .splash-layout {
+    position: absolute;
+    background: url('./assets/red-home-splash.jpg') center/ cover;
+  }
+
+  .mdl-layout__header-row {
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  #page-title {
+    color: transparent;    
+  }
+
 </style>
 
