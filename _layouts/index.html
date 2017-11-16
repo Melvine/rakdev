@@ -10,7 +10,7 @@
           <span class="mdl-layout-title">
             {% if page.title %}
               <h1 id="page-title" class="mdl-typography--title">
-                <img src="./assets/rakuten-logo.png" width="250" height="38">
+                <img src="./assets/rakuten-logo.png">
                 {{ page.title }}
               </h1>
             {% endif %}
@@ -20,10 +20,10 @@
       <main class="mdl-layout__content">
         <div class="page-content">
           <div class="content">
-            <div class="section-separator">
+            <div class="splash-container">
               <img src="./assets/red-home-splash.jpg">
               <div class="text-overlay">
-                  A Documentation Portal Built by Rakuten Developers for Rakuten Developers.
+                  A Content Management System Built by Rakuten Developers for Rakuten Developers.
               </div>
             </div>
             <div class="section-separator">
@@ -79,20 +79,132 @@
                     </button>
                   </div>
                 </div>
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Security
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <button class="mdl-button mdl-js-button">
+                      See More
+                    </button>
+                  </div>
+                </div>
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Ecosystem Service Division
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <button class="mdl-button mdl-js-button">
+                      See More
+                    </button>
+                  </div>
+                </div>
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Big Data
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <button class="mdl-button mdl-js-button">
+                      See More
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
+            <footer class="mdl-mega-footer">
+              <div class="mdl-mega-footer__middle-section">
+
+                <div class="mdl-mega-footer__drop-down-section">
+                  <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                  <h1 class="mdl-mega-footer__heading">Features</h1>
+                  <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Updates</a></li>
+                  </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                  <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                  <h1 class="mdl-mega-footer__heading">Details</h1>
+                  <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">Specs</a></li>
+                    <li><a href="#">Tools</a></li>
+                    <li><a href="#">Resources</a></li>
+                  </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                  <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                  <h1 class="mdl-mega-footer__heading">Technology</h1>
+                  <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Patterns</a></li>
+                    <li><a href="#">Usage</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contracts</a></li>
+                  </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                  <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                  <h1 class="mdl-mega-footer__heading">FAQ</h1>
+                  <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">Questions</a></li>
+                    <li><a href="#">Answers</a></li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="mdl-mega-footer__bottom-section">
+                <div class="mdl-logo">Rakuten Content Management System</div>
+                <ul class="mdl-mega-footer__link-list">
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Privacy & Terms</a></li>
+                </ul>
+              </div>
+            </footer>
           </div>
         </div>
       </main>
-      
-      <!--<footer>
-        {% include footer.html %}
-      </footer>-->
-    </div>
   </body>
 </html>
 
 <style type="text/css" media="screen">
+
+  #footer-container {
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+  }
+
+  #page-title img {
+    width: 9%;
+  }
+
   .mdl-cell {
     padding: 20px;
     background-color: #ffffff;
@@ -101,14 +213,29 @@
     position: relative;
   }
 
+  .mdl-layout__header-row {
+    padding: 0px 12px;
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  .mdl-mega-footer {
+    padding: 16px 40px;
+    color: #f5f5f5;
+    background-color: #333333;
+  }
+
+  .mdl-mega-footer__drop-down-section {
+    text-align: left;
+  }
+
   .mdl-grid {
     width: 100%;
-    height: 300px;
+    height: 100%;
   }
 
   .department-title {
-    margin: 4px;
-    padding: 10px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-size: medium;
     font-weight: bold;
@@ -144,9 +271,7 @@
   .button-container {
     width: 100%;
     height: 50px;
-    position: absolute;
-    margin: 4px;
-    padding: 4px;
+    margin-top: 20px;
     bottom: 0;
     left: 1;
   }
@@ -185,15 +310,17 @@
     padding: 0px;
   }
 
-  .section-separator {
+  .splash-container {
     position: relative;
     width: 100%;
     height: 100%;
   }
 
+  .section-separator {
+    margin-bottom: 50px;
+  }
+
   .text-overlay {
-    /*width: 50%;
-    height: 50%;*/
     position: absolute;
     color: #ffffff;
     text-align: center;
@@ -201,9 +328,11 @@
     line-height: 50px;
     top: 50%;
     left: 50%;
-    font-size: 50px;
+    font-size: 40px;
     transform: translate(-50%, -50%);
+    padding: 40px 50px;
+    border-style: solid;
+    border-width: 6px;
   }
-
 </style>
 
