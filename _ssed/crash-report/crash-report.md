@@ -74,7 +74,7 @@ Associate logs with your crash reports.
   CrashReport.getInstance().log(String message);
   ```
   
-  ### New subsection
+### New subsection
 
 *TO-DO
 *one
