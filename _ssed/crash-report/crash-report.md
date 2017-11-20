@@ -77,7 +77,7 @@ Associate logs with your crash reports.
 ### New subsection
 
 TO-DO:
-*one
-*two
+* one
+* two
 
 <h1> hello world! </h1>
