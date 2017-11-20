@@ -73,11 +73,3 @@ Associate logs with your crash reports.
   ```
   CrashReport.getInstance().log(String message);
   ```
-
-### New subsection
-
-TO-DO:
-* one
-* two
-
-<h1> hello world! </h1>
