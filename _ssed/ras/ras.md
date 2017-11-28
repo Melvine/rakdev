@@ -1,9 +1,9 @@
 ---
 layout: ssed
-permalink: ssed/ras/
+permalink: /ssed/ras/
 weight: 1
+category: ras
 ---
-
 
 ## Ras
 
